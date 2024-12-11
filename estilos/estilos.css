@@ -1,0 +1,389 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+h1, h2, h3 {
+    font-family: "Parkinsans", sans-serif;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+a:hover {
+    border-color: #629762;
+    background-color: #629762;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#menu {
+    background-color: #1F4529;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+footer {
+    padding: 5px;  
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1F4529;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+b {
+    font-size: 1.3rem;
+}
+
+abbr {
+    text-decoration: underline #1F4529;
+}
+
+ul li {
+    text-align: justify;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 80px;
+    list-style-image: url(../imagenes/viñeta.png);
+}
+
+ol li {
+    text-align: left;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 80px;
+}
+
+.destacar {
+    font-weight: bolder;
+    color: #1F4529;
+}
+
+#headerPrincipal {
+    background: url("../imagenes/ciudad_portada.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: #FFF;
+}
+
+.logoEnlace {
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.logoEnlace a {
+    font-size: 1rem;
+    font-weight: 700;
+    color:#1F4529;
+    float: right;
+    padding: 10px;
+}
+
+.logoEnlace a:hover {
+    color:white;
+}
+
+.logoEnlace img {
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.titulo {
+    text-align: center;
+    padding-top: 350px;
+}
+
+.titulo h1 {
+    font-size: 6rem;
+    font-weight: 600;
+}
+
+.titulo a {
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.titulo a:hover {
+    border-color: white;
+    background-color: white;
+    color:#1F4529;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.menuInfo {
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 20px;  
+}
+
+.menuInfo h2 {
+    font-size: 2rem;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-top: 40px;
+    text-decoration: #1F4529 wavy underline;
+}
+
+.contenido {
+    display: flex;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.apartado{
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.apartado p {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.boton {
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 40px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: 1px solid #1F4529;
+    background-color: #1F4529;
+    color: white;
+    border-radius: 15px;
+}
+
+.intro {
+    display:flex;
+    margin: auto;
+    margin-bottom: 20px;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 20px;
+    align-items: center;
+    margin-top: 60px;
+}
+  
+.intro h1 {
+    padding-bottom: 20px;
+    padding-top: 40px;
+    text-decoration: #1F4529 wavy underline ;
+    font-size: 3rem;
+}
+  
+.intro p {
+    padding-bottom: 40px;
+    padding-right: 30px;
+    font-size: 1.2rem;
+}
+  
+.intro img {
+    border-radius: 15px;
+}
+
+.intro img:hover {
+    filter:blur(5px);
+}
+
+.enlaceFoto:hover{
+    all:unset;
+    padding: 10px;
+}
+
+.sobre_los_ods {
+    background-color: #629762;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.definicion {
+    margin: auto;
+    max-width: 1000px;
+    overflow: auto;
+}
+  
+.definicion h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 2.5rem;
+}
+  
+.definicion p {
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+.explicacion {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.explicacion a {
+    color:#1F4529;
+    font-weight: bold;
+    padding: 0;
+}
+  
+.explicacion a:hover {
+    background-color: #f3fadc;
+    color:#1F4529;
+    cursor: pointer;
+    padding: 0;
+}
+
+.explicacion div {
+    padding: 15px;
+}
+
+.explicacion img {
+    padding: 15px;
+    border-radius: 150px;
+}
+
+.ranking  {
+    text-align: left;
+    display:inline-block;
+}
+
+.ranking li::marker {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color:#1F4529;
+}
+
+.arriba {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+  
+.arriba a {
+    background-color: #1F4529;
+    border-radius: 15px;
+}
+  
+.arriba a:hover {
+    background-color: #629762;
+    border-radius: 15px;
+}
+
+.separador {
+    border-top: solid 3px #629762;
+    border-bottom: solid 3px #629762;
+    background-color: #f3fadc;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}  
+
+.ciudad {
+    display:flex;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 20px;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.city {
+    padding-left: 20px;
+}
+
+.city h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    text-decoration: underline wavy #1F4529;
+    padding-bottom: 10px;
+}
+
+.city p {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.ciudad img {
+    border-radius: 15px;
+}
+
+.quienSoy {
+    display:flex;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 20px;
+    align-items: center;
+    margin-top: 60px;
+}
+.quienSoy h1 {
+    text-align: left;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    text-decoration: underline wavy #1F4529;
+    padding-bottom: 10px;    
+}
+
+.quienSoy p {
+    font-size: 1.4rem;
+}
+
+.alba {
+    color: #dd608a;
+    font-weight: bold;
+}
+
+.datos {
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 50px;
+}
+
+.linea {
+    color: #1F4529;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.75rem;
+}
